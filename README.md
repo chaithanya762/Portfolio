@@ -58,6 +58,8 @@ Chaithanya S
 [GitHub](https://github.com/chaithanya762) | [Email](mailto:chaithanyagowda762@gmail.com) | [Phone: +91 7892862376](tel:+917892862376)
 
 ---
+## Netlify Link to a access the app
+https://chaithanya-s-portfolio01.netlify.app/
 
 ### License
 This project is licensed under the MIT License. Feel free to fork and modify it as per your requirements.
