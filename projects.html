@@ -9,33 +9,39 @@
 </head>
 <body class="font-sans bg-gray-50">
     <!-- Navigation -->
-    <nav class="bg-white shadow-lg sticky top-0 z-50">
-        <div class="max-w-6xl mx-auto px-4">
-            <div class="flex justify-between">
-                <div class="flex space-x-7">
-                    <div>
-                        <a href="index.html" class="flex items-center py-4 px-2">
-                            <span class="font-semibold text-gray-900 text-lg">Chaithanya S</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="hidden md:flex items-center space-x-1">
-                    <a href="index.html" class="py-4 px-2 text-gray-500 hover:text-blue-600 transition duration-300">Home</a>
-                    <a href="about.html" class="py-4 px-2 text-gray-500 hover:text-blue-600 transition duration-300">About</a>
-                    <a href="projects.html" class="py-4 px-2 text-blue-600 border-b-4 border-blue-600 font-semibold">Projects</a>
-                    <a href="contact.html" class="py-4 px-2 text-gray-500 hover:text-blue-600 transition duration-300">Contact</a>
-                </div>
-                <div class="md:hidden flex items-center">
-                    <button class="outline-none mobile-menu-button">
-                        <svg class="w-6 h-6 text-gray-500" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
-                            <path d="M4 6h16M4 12h16M4 18h16"></path>
-                        </svg>
-                    </button>
+<nav class="bg-white shadow-lg sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="flex justify-between">
+            <div class="flex space-x-7">
+                <div>
+                    <a href="index.html" class="flex items-center py-4 px-2">
+                        <span class="font-semibold text-gray-900 text-lg">Chaithanya S</span>
+                    </a>
                 </div>
             </div>
+            <div class="hidden md:flex items-center space-x-1">
+                <a href="index.html" class="py-4 px-2 text-gray-500 hover:text-blue-600 transition duration-300">Home</a>
+                <a href="about.html" class="py-4 px-2 text-gray-500 hover:text-blue-600 transition duration-300">About</a>
+                <a href="projects.html" class="py-4 px-2 text-blue-600 border-b-4 border-blue-600 font-semibold">Projects</a>
+                <a href="contact.html" class="py-4 px-2 text-gray-500 hover:text-blue-600 transition duration-300">Contact</a>
+            </div>
+            <div class="md:hidden flex items-center">
+                <button class="outline-none mobile-menu-button">
+                    <svg class="w-6 h-6 text-gray-500" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
         </div>
-    </nav>
-
+    </div>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu hidden md:hidden">
+        <a href="index.html" class="block py-2 px-4 text-gray-500 hover:text-blue-600 transition duration-300">Home</a>
+        <a href="about.html" class="block py-2 px-4 text-gray-500 hover:text-blue-600 transition duration-300">About</a>
+        <a href="projects.html" class="block py-2 px-4 text-blue-600 hover:text-blue-800 transition duration-300">Projects</a>
+        <a href="contact.html" class="block py-2 px-4 text-gray-500 hover:text-blue-600 transition duration-300">Contact</a>
+    </div>
+</nav>
     <!-- Projects Header -->
     <section style="background: linear-gradient(to right, #09203F, #537895);" class="relative py-20 text-white overflow-hidden">
         <div class="absolute inset-0 opacity-20" style="background-image: url('https://www.transparenttextures.com/patterns/always-grey.png');"></div>
