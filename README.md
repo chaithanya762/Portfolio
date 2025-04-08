@@ -51,7 +51,6 @@ portfolio/
 ├── about.html        # About page for education and experience
 ├── projects.html     # Projects page displaying featured works
 ├── contact.html      # Contact page with a form and contact details
-└── styles/           # Folder containing custom styles (if any)
 ```
 
 ## Author
